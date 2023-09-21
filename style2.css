@@ -1,0 +1,114 @@
+#Container{
+    background-color: rgb(255, 255, 255);
+    border:1px solid;
+    width:1819px;
+    height:900px;
+    margin:0 auto;
+    position:relative;
+}
+#Header {
+    background-color: black;
+    border:1px solid;
+    width: 1819px;
+    height:80px;
+    margin:5px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#BlogPribadi {
+    background-color: black;
+    border:1px solid;
+    width: 1819px;
+    height:80px;
+    margin:5px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#Kolom1 {
+    background-color: black;
+    border:1px solid;
+    padding: 3px;
+    width:350px;
+    height:400px;
+    margin:0 0 5px 5px;
+    position:relative;
+    float:left;
+    top: 2%;
+    left: 1.5%; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#Kolom2 {
+    background-color: black;
+    border:1px solid;
+    padding: 3px;
+    width:350px;
+    height:400px;
+    margin:0 0 5px 5px;
+    position:absolute;
+    float:left;
+    top: 50%;
+    left: 1.5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Content {
+    background-color: black;
+    border:1px solid;
+    padding: 1%;
+    width: 1350px;  
+    height: 800px;
+    margin:5px;
+    position:relative;
+    float:right;
+    bottom: -1.6%;
+    right: 1.5%; 
+    text-align: center;
+    
+       
+}
+
+#Footer {
+    border:1px solid;
+    width: 1819px;
+    height:80px;
+    margin:10px auto;
+    bottom: 0%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+
+body {
+    background-color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    color: aliceblue;
+}
+
+img {
+    width: 500px;
+    height:650px;
+    margin:10px ;
+  }
